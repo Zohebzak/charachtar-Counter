@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    border: 3px solid lightblue;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px 2px;
+    box-shadow: 0 0 4px 1px rgb(187, 96, 96);
+}
+
+button {
+    padding: 20px 30px;
+    background-color: rgb(68, 188, 218);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(2, 20, 37);
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(219, 62, 62);
+}

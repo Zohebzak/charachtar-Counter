@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Counter</title>
+    <link rel="stylesheet" href="letterCounter.css" />
+    <script>
+        const countWords = () => {
+            let enterdValue = document.getElementById("words").value.length
+            document.getElementById("showdata").innerHTML = "THE TOTAL CHARACHTERS :" + enterdValue
+        }
+    </script>
+</head>
+
+<body>
+    <h1>THE CHARACHTER COUNTER</h1>
+
+    <div>
+        <textarea cols="50" rows="10" id="words"></textarea>
+        <br>
+        <p id="showdata"> </p>
+        <br>
+        <button onclick="countWords()">Click to count Charcters</button>
+    </div>
+
+
+</body>
+
+</html>
